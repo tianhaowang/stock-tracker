@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">My Stocks</a>
+        <a href="#">Add Stock</a>
+        <a href="#">Logout</a>
+    </div>
+
+    <div class="dashboard-container">
+        <h2>My Tracked Stocks</h2>
+        <div class="stocks-list">
+            <!-- Stocks will be added here dynamically -->
+            <div class="stock-item">
+                <span class="stock-name">Apple Inc (AAPL)</span>
+                <span class="stock-price">$174.55</span>
+                <span class="stock-change">+1.67 (0.96%)</span>
+                <button class="remove-button">Remove</button>
+            </div>
+            <!-- Repeat for each stock -->
+        </div>
+    </div>
+</body>
+</html>

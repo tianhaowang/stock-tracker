@@ -1,0 +1,136 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5; /* Light background */
+    color: #333; /* Darker text for readability */
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border: 1px solid #ddd; /* Add subtle border */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Soft shadow for depth */
+}
+
+.input-group {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff; /* White input fields */
+    border: 1px solid #ccc; /* Subtle border */
+    border-radius: 4px;
+    color: #333;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50; /* Softer green */
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker shade of button for hover */
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Fix for the login form alignment */
+.login-container {
+    align-items: center; /* Center the form vertically */
+    text-align: center; /* Ensure text is centered within the form */
+}
+
+.navbar {
+    background-color: #ffffff; /* Light background for navbar */
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Add shadow for depth */
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #333; /* Dark text for readability */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.navbar a:hover {
+    background-color: #f0f2f5; /* Light hover background */
+}
+
+.dashboard-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff; /* White background for dashboard */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Soft shadow for depth */
+}
+
+.stocks-list {
+    margin-top: 20px;
+}
+
+.stock-item {
+    background-color: #f8f9fa; /* Very light background for stock items */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd; /* Add subtle border */
+}
+
+.stock-name, .stock-price, .stock-change {
+    color: #333; /* Ensuring text is readable */
+}
+
+.remove-button {
+    padding: 5px 10px;
+    background-color: #e74c3c; /* Keep remove button noticeable */
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.remove-button:hover {
+    background-color: #c0392b; /* Darker shade for hover */
+}
